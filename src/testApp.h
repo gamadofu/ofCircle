@@ -27,8 +27,8 @@ public:
   //here
   // インスタンス化
   vector <Particle> particles;
-  void drawCurve(ofTouchEventArgs & touch);
-  void drawCircle(ofTouchEventArgs & touch);
+  // bitmap
+  ofImage img;
 };
 
 
